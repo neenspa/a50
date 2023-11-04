@@ -1,0 +1,14 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: a50
+  description: vm-removal
+  annotations:
+    backstage.io/kubernetes-id: a50
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: neenspa/a50
+spec:
+  type: api
+  lifecycle: production
+  owner: amargheritini
